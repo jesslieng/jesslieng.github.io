@@ -1,0 +1,163 @@
+/** {
+    --darkblue: #2d3142; 
+    --aqua: #5BaeB7;
+    --darkgrey: #4f5d75;
+    --lightgray: #BFc0c0;
+}*/
+
+body {
+background-color: aliceblue;
+
+}
+
+
+#heading{
+
+    color: #5BaeB7;
+    font-family: "DM Serif Display", serif;
+    font-size: 96px;
+    line-height: 134.4px;
+    letter-spacing: 10px;
+    font-weight: 400;
+
+}
+
+.description {
+
+    font-family: "DM Sans", sans-serif;
+    color: #4f5d75;
+    font: size 24px;
+    font-style: normal;
+    font-weight: 175;
+    line-height: 36px;
+
+
+}
+
+nav {
+    background-color: #5BaeB7;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+nav > ul {
+
+   text-align: center;
+   font-size: 36px;
+   font-style: normal;
+   font-weight: 100;
+   line-height: 150%;
+   letter-spacing: 9px;
+   list-style-type: none;
+}
+
+nav > ul > li > a, a:visited {
+    color: #4f5d75;
+    text-decoration: none;
+
+}
+
+h1{
+    color: #4f5d75;
+    text-transform: uppercase;
+    font-family: "Dm Serif Display", serif;
+    font-size: 75 px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    letter-spacing: 6px;
+
+
+}
+
+h2{
+
+    color: #4f5d75;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 48 px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 4.8px;
+    
+
+}
+
+h3{
+
+    color: #4f5d75;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 60 px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 6x;
+
+}
+
+strong{
+
+}
+
+italic{
+
+}
+
+strong {
+
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 800;
+}
+
+i {
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 300;
+
+}
+
+.description > ul {
+
+    list-style: "↸";
+ 
+}
+
+.description > ul > li > a:visited, a:active {
+    color: #4f5d75;
+    text-decoration: none;
+}
+
+.description > ul > li > a {
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 800;
+    text-decoration: none;
+    text-stroke: 0px #FFFFFF;
+    -webkit-text-stroke: 0px;
+    transition: color 2s;
+
+}
+
+.description > ul > li > a:hover {
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7;
+    background-color: #4f5d75;
+    font-weight: 800;
+    text-decoration: none;
+    -webkit-text-stroke: 0px;
+    transition: color 2s;
+}
+
+a:hover {
+
+    color: transparent;
+    stroke: 2px #FFFFFF; 
+
+}
