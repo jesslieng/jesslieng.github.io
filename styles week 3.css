@@ -1,0 +1,285 @@
+* {
+    --darkblue: #2d3142; 
+    --aqua: #5BaeB7;
+    --darkgrey: #4f5d75;
+    --lightgray: #BFc0c0;
+    font-size: 12px;
+}
+
+body {
+    position: relative;
+    background-color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 256px auto;
+    font-size: 1rem;
+
+}
+
+.container-content{
+    position: relative;
+    left: 25vw;
+    padding: 36px;
+    margin: 24px;
+    width: 65vw;
+    font-size: 2rem;
+}
+
+
+#heading{
+
+    color: #5BaeB7;
+    font-family: "DM Serif Display", serif;
+    font-size: 7rem;
+    line-height: 134.4px;
+    font-weight: 400;
+
+}
+
+nav {
+    background-color: #5BaeB7;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 25vw;
+    height: 100vh;
+    font-size: 3rem;
+    
+}
+
+nav > ul {
+    margin-left: 0px;
+    margin-top: 121px;
+    padding: 0px;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 150%;
+    letter-spacing: 9px;
+    list-style-type: none;
+}
+
+nav > #menu {
+    margin-top: 60px; 
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+}
+
+nav > #menu > span {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.navStyle > ul > li > a, a:visited {
+    font-size: 2rem;
+    color: #4f5d75;
+    text-decoration: none;
+
+}
+
+h1{
+    color: #4f5d75;
+    text-transform: uppercase;
+    font-family: "Dm Serif Display", serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 6px;
+
+
+}
+
+h2{
+
+    color: #4f5d75;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 4.8px;
+    
+
+}
+
+h3{
+
+    color: #4f5d75;
+    text-align: center;
+    font-family: "DM Serif Display", serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 3.6x;
+
+}
+
+strong {
+
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 800;
+    font-size: 2rem;
+}
+
+i {
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 300;
+    font-size: 2rem;
+
+}
+
+.description {
+
+    font-family: "DM Sans", sans-serif;
+    color: #4f5d75;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 150;
+    line-height: 36px;
+
+}
+
+.description > div{
+    font-size: 2rem;
+}
+
+.description > ul {
+
+    list-style: "↸";
+ 
+}
+
+.description > ul > li > a:visited, a:active {
+    color: #4f5d75;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+.description > ul > li > a {
+    font-family: "DM Sans", sans-serif;
+    color:#5BaeB7; 
+    background-color: #4f5d75;
+    font-weight: 800;
+    text-decoration: none;
+    -webkit-text-stroke: 0px;
+    transition: color 2s, -webkit-text-stroke 2s;
+    font-size: 2rem;
+
+}
+
+.description > ul > li > a:hover {
+    font-family: "DM Sans", sans-serif;
+    color:transparent;
+    -webkit-text-stroke: 1px white;
+    background-color: #4f5d75;
+    font-weight: 800;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+a:hover {
+
+    color: transparent;
+    stroke: 2px #FFFFFF; 
+
+}
+
+section > a:visited, active {
+    color:#5BaeB7;
+    text-decoration: none;
+    font-size: 2rem;
+}
+
+section > div > a{
+    font-family: "DM Sans", sans-serif;
+    color: #5BaeB7;
+    background-color:#2d3142;
+    font-weight: 800;
+    text-decoration: none;
+    -webkit-text-stroke: 0px;
+    transition: color 2s, -webkit-text-stroke 2s;
+    font-size: 2rem;
+}
+
+section > div > a:hover {
+    font-family: "DM Sans", sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px white;
+    background-color: #4f5d75;
+    font-weight:800;
+    text-decoration: none;
+    font-size: 2rem;
+} 
+
+.description > div::first-letter {
+
+    font-family: "DM Serif Display", serif;
+    font-size: 60px;
+    font-style: italic;
+    -webkit-initial-letter: 2;
+    initial-letter: 2;
+}
+
+@media only screen and (max-width:600px){
+
+    *{
+        font-size: 10px;
+    }
+
+    nav{
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        height: 15vh;
+        width: 100vw;
+    }
+
+    nav > #menu {
+        display: none;
+    }
+
+    .container-content{
+        position: relative;
+        top: 12vh;
+        left: 0px;
+        padding: 36px;
+        margin: 0px;
+        width: 60%;
+        font-size: 2rem;
+    }
+
+    nav > ul {
+        display: flex;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 0px;
+        text-align: center;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 150%;
+        letter-spacing: 9px;
+        list-style-type: none;
+        justify-content: center;
+        align-items: center;
+    }
+}
